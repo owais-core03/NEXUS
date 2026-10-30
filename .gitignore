@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+*.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+backend/venv/
+*.sqlite
+*.db
+backend/nexus.db
+nexus.db
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Design toolkit (large extracted zip, not project code)
+design-toolkit/
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
